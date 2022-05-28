@@ -37,7 +37,8 @@ body {
 }
 
 .headtitle {
-  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .mttitle {
@@ -109,17 +110,17 @@ body {
   display: grid;
 }
 
-. s {
+.projects {
   display: flex;
   flex-wrap: wrap;
 }
 
-.Projectsimg {
+.projectsimg {
   width: 100%;
   height: auto;
 }
 
-.Projectswrp {
+.projectswrp {
   background-color: #1a2236;
   width: 100%;
 }
