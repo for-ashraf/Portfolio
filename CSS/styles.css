@@ -51,6 +51,16 @@ body {
   color: #1a2236;
 }
 
+.mttitle2 {
+  height: 50px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
 .mtext {
   margin: auto 1.5em;
   font-family: 'Poppins', sans-serif;
@@ -149,6 +159,18 @@ body {
   padding: 0;
 }
 
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 10;
+  padding: 0;
+}
+
+.footer li {
+margin: 10px;
+width: 100%;
+}
 .smallbtn {
   box-sizing: border-box;
   padding: 1px 6px;
@@ -212,6 +234,17 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+
+.footer {
+  display: flex;
+  background-image: url(../Images/geometry_1.png);
+  justify-content: flex-start;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-left: 18px;
 }
 
 .lang {
@@ -294,18 +327,18 @@ body {
 }
 
 .mttitle {
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 100%;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
 }
 
 .mtext {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-letter-spacing: -0.01em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
 }
