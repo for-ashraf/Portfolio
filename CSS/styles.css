@@ -62,7 +62,8 @@ body {
 }
 
 .mtext {
-  margin: auto 1.5em;
+  flex: 1;
+  text-align: left;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +160,7 @@ body {
   padding: 0;
 }
 
-.footer ul {
+.mtul {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -167,10 +168,15 @@ body {
   padding: 0;
 }
 
-.footer li {
-margin: 10px;
-width: 100%;
+.mtli {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 4px;
 }
+
 .smallbtn {
   box-sizing: border-box;
   padding: 1px 6px;
@@ -245,6 +251,7 @@ width: 100%;
   background-repeat: no-repeat;
   padding-top: 120px;
   padding-left: 18px;
+  width: 320px;
 }
 
 .lang {
@@ -341,4 +348,37 @@ width: 100%;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
+}
+
+.input_text {
+  /* width: 100%;*/
+  flex: 1;
+  text-align: left;
+  height: 52px;
+  overflow: hidden;
+  padding-right: 18px;
+  padding-left: 18px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.input_label {
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7D7C84;
+}
+
+.input_textarea {
+  height: 112px;
+  padding:0;
+  resize: none;
+}
+
+.mtlibtn {
+  border: none;
 }
