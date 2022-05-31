@@ -281,3 +281,31 @@ body {
   line-height: 30px;
   color: #fff;
 }
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Images/geometry_1.png);
+  justify-content: center;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  width: 320px;
+  height: 813px;
+}
+
+.mttitle {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+}
+
+.mtext {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+}
