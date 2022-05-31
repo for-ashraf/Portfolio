@@ -385,10 +385,11 @@ body {
 
 .socialMedia {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   list-style-type: none;
 }
+
 
 .footer_socialMedia {
   display: flex;
