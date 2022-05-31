@@ -375,10 +375,58 @@ body {
 
 .input_textarea {
   height: 112px;
-  padding:0;
+  padding: 0;
   resize: none;
 }
 
 .mtlibtn {
   border: none;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer_socialMedia {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.socialMediaStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  height: 150px;
+  left: 0px;
+  top: 4760px;
+  background: #1A2236;
+}
+.socialMediaText {
+  display: flex;
+  height: 24px;
+  left: 16px;
+  top: 4792px;
+  padding-left: 16px;
+  margin-right: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92DCDC;
+}
+.Resume_text{
+  padding-left: 10px;
+}
+
+.SocialMediaContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
 }
