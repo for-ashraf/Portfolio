@@ -55,16 +55,6 @@ ul {
   color: #1a2236;
 }
 
-.mttitle2 {
-  height: 50px;
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 100%;
-  color: #1a2236;
-}
-
 .mtext {
   flex: 1;
   text-align: left;
