@@ -516,11 +516,7 @@ textarea {
     flex-direction: row-reverse;
   }
 
-  .about_wrapper {
-    
-  }
-
-  .lang_con {
-    width: 50%;
-  }
+.lang_con {
+  width: 50%;
+}
 }
