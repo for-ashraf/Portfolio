@@ -508,15 +508,15 @@ textarea {
     display: none;
   }
 
-  .lang_con {
-    width: 50%;
-  }
-
   .about {
     width: 70%;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
+  }
+  
+  .lang_con {
+    width: 50%;
   }
 }
