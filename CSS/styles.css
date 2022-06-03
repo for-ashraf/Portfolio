@@ -516,7 +516,7 @@ textarea {
     flex-direction: row-reverse;
   }
 
-.lang_con {
-  width: 50%;
-}
+  .lang_con {
+    width: 50%;
+  }
 }
