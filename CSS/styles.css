@@ -495,12 +495,12 @@ textarea {
     display: none;
   }
 
-  .desktop_image {
-    display: block;
-  }
-
   .projects {
     width: 20%;
+  }
+
+  .desktop_image {
+    display: block;
   }
 
   .aboutGrid {
