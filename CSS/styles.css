@@ -520,3 +520,14 @@ textarea {
     flex-direction: row-reverse;
   }
 }
+
+/* Animation features */
+
+.mttitle {
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.mttitle:hover {
+  font-size: 70px;
+}
