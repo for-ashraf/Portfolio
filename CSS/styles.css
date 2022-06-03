@@ -504,11 +504,7 @@ textarea {
     width: 20%;
   }
 
-  .projectswrp {
-    display: none;
-  }
-
-  .about {
+    .about {
     width: 70%;
     justify-content: center;
     align-items: center;
@@ -516,6 +512,10 @@ textarea {
     flex-direction: row-reverse;
   }
   
+  .projectswrp {
+    display: none;
+  }
+
   .lang_con {
     width: 50%;
   }
