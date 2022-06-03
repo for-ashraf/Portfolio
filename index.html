@@ -7,40 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./CSS/Styles.css">
-    <title>Portfolio Projec</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Portfolio Project</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav class="nav">
+    <nav class="nav_header">
+        <div class="nav_items">
+            <ul>
+                <li><a href="#">Hello</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
         <div class="menu">
-            <a href="#"><img src="Images/menu.png" alt="My Menu"></a>
+            <a href="#sideBarMenu"><img src="Images/menu.png" alt="Menu Links"></a>
         </div>
     </nav>
 
-    <section class="headline">
-        <div class="headtitle">
-            <h1 class="mttitle">Muhammad Ashraf</h1>
+    <section class="main_section" id="home">
+        <div class="home_wrapper">
+            <div class="headtitle">
+                <h1 class="mttitle">Muhammad Ashraf</h1>
+            </div>
+            <div class="mttxt">
+                <p class="mtext">Hello! I am a software developer! I can help you build a product, feature or website.
+                    Take a look of my works. If you like what you see and have a Project you need coded, don’t hesitate
+                    and contact me.</p>
+            </div>
+            <button type="button" class="colbtn">Start Collaboration</button>
         </div>
-        <div class="maintxt">
-            <p class="mtext">Hello! I am a software developer! I can help you build a product, feature or website. Taka
-                a look of my works. If you like what you see and have a Project you need coded, don’t hesitate and
-                contact me.</p>
-        </div>
-        <button type="button" class="colbtn">Start Collaboration</button>
-        <div class="decoimg">
-        </div>
+        <div class="desktop_image"></div>
+        <div class="decoimg"></div>
     </section>
 
-    <section class="works">
-        <div class="headtitle">
-            <h2 class="mttitle">Projects</h2>
+    <section class="works" id="works">
+        <div class="projtitle">
+            <h1 class="mttitle">Projects</h1>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj1.png" alt="projects Image">
-            <div class="projectswrp">
+            <img class="projectimg" src="./Images/proj1.png" alt="Project Image">
+            <div class="projectwrp">
                 <h2 class="projtxt">My First Project</h2>
                 <div class="projlang">
                     <ul>
@@ -49,14 +60,13 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects <img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project <img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj2.png" alt="projects Image">
-            <div class="projectswrp">
-                <p class="projtxt">My Second Project</p>
+            <img class="projectimg" src="./Images/proj2.png" alt="Project Image">
+            <div class="projectwrp">
+                <h2 class="projtxt">My Second Project</h2>
                 <div class="projlang">
                     <ul>
                         <li><button type="button" class="smallbtn">HTML/CSS</button></li>
@@ -64,14 +74,13 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects<img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project<img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj3.png" alt="projects Image">
-            <div class="projectswrp">
-                <p class="projtxt">My Third Project</p>
+            <img class="projectimg" src="./Images/proj3.png" alt="Project Image">
+            <div class="projectwrp">
+                <h2 class="projtxt">My Third Project</h2>
                 <div class="projlang">
                     <ul>
                         <li><button type="button" class="smallbtn">HTML/CSS</button></li>
@@ -79,14 +88,13 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects<img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project<img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj1.png" alt="projects Image">
-            <div class="projectswrp">
-                <p class="projtxt">My Fourth Project</p>
+            <img class="projectimg" src="./Images/proj1.png" alt="Project Image">
+            <div class="projectwrp">
+                <h2 class="projtxt">My Fourth Project</h2>
                 <div class="projlang">
                     <ul>
                         <li><button type="button" class="smallbtn">HTML/CSS</button></li>
@@ -94,14 +102,13 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects<img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project<img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj2.png" alt="projects Image">
-            <div class="projectswrp">
-                <p class="projtxt">My Fifth Project</p>
+            <img class="projectimg" src="./Images/proj2.png" alt="Project Image">
+            <div class="projectwrp">
+                <h2 class="projtxt">My Fifth Project</h2>
                 <div class="projlang">
                     <ul>
                         <li><button type="button" class="smallbtn">HTML/CSS</button></li>
@@ -109,14 +116,13 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects<img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project<img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
         <div class="projects">
-            <img class="projectsimg" src="./Images/proj3.png" alt="projects Image">
-            <div class="projectswrp">
-                <p class="projtxt">My Sixth Project</p>
+            <img class="projectimg" src="./Images/proj3.png" alt="Project Image">
+            <div class="projectwrp">
+                <h2 class="projtxt">My Sixth Project</h2>
                 <div class="projlang">
                     <ul>
                         <li><button type="button" class="smallbtn">HTML/CSS</button></li>
@@ -124,106 +130,109 @@
                         <li><button type="button" class="smallbtn">Javascript</button></li>
                     </ul>
                 </div>
-                <button type="button" class="projbtn">Check out this projects<img src="./Images/arrow.png"
-                        alt=""></button>
+                <button type="button" class="projbtn">See this project<img src="./Images/arrow.png" alt=""></button>
             </div>
         </div>
     </section>
-
-    <section class="about">
-        <div class="headtitle">
-            <h2 class="mttitle">About</h2>
+    <section class="about" id="about">
+        <div class="aboutGrid">
+          <div class="grid-item-a">
+            <div class="lang">
+              <div class="sectitle">
+                <h2>Languages</h2>
+              </div>
+              <div class="litxt">
+                <ul>
+                  <li>JavaScript (ES5/ES6)</li>
+                  <li>Ruby</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-b">
+            <div class="frames">
+              <div class="sectitle">
+                <h2>Frameworks</h2>
+              </div>
+              <div class="litxt">
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>Ruby on rails</li>
+                  <li>RSpec</li>
+                  <li>Capibara</li>
+                  <li>Selenium</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-e">
+            <div class="about_wrapper">
+              <div class="headtitle">
+                <h1 class="mttitle">About</h1>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-c">
+            <div class="skills">
+              <div class="sectitle">
+                <h2>Skills</h2>
+              </div>
+              <div class="litxt">
+                <ul>
+                  <li>Codekit</li>
+                  <li>Codepen</li>
+                  <li>GitHub</li>
+                  <li>GitLab</li>
+                  <li>Terminal</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-d">
+            <img src="./Images/dotted_box.png" alt="">
+          </div>
+          <div class="grid-item-f">
+            <div class="mttxt">
+              <p class="mtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ea eiusmod</p>
+            </div>
+            <button type="button" class="colbtn">Get my CV <img src="./Images/ic_download.png" alt=""></button>
+          </div>
         </div>
-        <div class="maintxt">
-            <p class="mtext">It is a long established fact that a reader will be distracted by the readable content of a
-                page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here, content here', making it look like readable
-                English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and
-                the like).</p>
-        </div>
-        <button type="button" class="colbtn">Check out my CV <img src="./Images/ic_download.png" alt=""></button>
-
-        <div class="lang">
-            <div class="sectitle">
-                <ul>
-                    <li>
-                        <h2>Languages</h2>
-                    </li>
-                </ul>
-            </div>
-            <div class="litxt">
-                <ul>
-                    <li>JavaScript (ES5/ES6)</li>
-                    <li>Ruby</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-            </div>
-        </div>
-        <div class="frames">
-            <div class="sectitle">
-                <ul>
-                    <li>
-                        <h2>Frameworks</h2>
-                    </li>
-                </ul>
-            </div>
-            <div class="litxt">
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Ruby on rails</li>
-                    <li>RSpec</li>
-                    <li>Capibara</li>
-                    <li>Selenium</li>
-                </ul>
-            </div>
-        </div>
-        <div class="skills">
-            <div class="sectitle">
-                <ul>
-                    <li>
-                        <h2>Skills</h2>
-                    </li>
-                </ul>
-            </div>
-            <div class="litxt">
-                <ul>
-                    <li>Codekit</li>
-                    <li>Codepen</li>
-                    <li>GitHub</li>
-                    <li>GitLab</li>
-                    <li>Terminal</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+      </section>
     <section class="contact">
         <div class="topimg">
         </div>
-        <div class="headline">
-            <h1 class="headtitle" >Get started</h1>
+        <div class="headtitle">
+            <h1 class="mtitle">Get started</h1>
         </div>
-        <div class="maintxt">
-            <p class="mtext" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        <div class="mttxt">
+            <p class="mtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna.</p>
         </div>
         <form action="https://formspree.io/f/mayvvvnd" method="POST">
             <ul class="contactform">
                 <li>
-                <label for="fname">Your name</label>
-                    <input type="text" name="name" id="fname" placeholder="Jhon Doe" required maxlength="30" pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}">
+                    <label for="fname">Your name</label>
+                    <input type="text" name="name" id="fname" placeholder="Jhon Doe" required maxlength="30"
+                        pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}">
                 </li>
                 <li>
-                <label for="email-address">Your email</label>
-                    <input type="email" name="email" id="email-address" placeholder="email@domain.com" required pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+                    <label for="email-address">Your email</label>
+                    <input type="email" name="email" id="email-address" placeholder="email@domain.com" required
+                        pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
                 </li>
                 <li>
-                <textarea rows="4" name="message" id="message" placeholder="Enter your message here..." required maxlength="500"></textarea>
+                    <textarea rows="4" name="message" id="message" placeholder="Enter your message here..." required
+                        maxlength="500"></textarea>
                 </li>
             </ul>
-            <button class="colbtn" type="submit">Start collaboration</button>
+
         </form>
+        <button class="colbtn" type="submit">Start collaboration</button>
     </section>
     <footer class="footer">
         <div class="getlink">
@@ -231,7 +240,8 @@
         </div>
         <div>
             <ul class="socialinks">
-                <li><a href="https://stackoverflow.com/"><img src="./Images/ic_stackoverflow.png" alt="Stack Overflow link"></a></li>
+                <li><a href="https://stackoverflow.com/"><img src="./Images/ic_stackoverflow.png"
+                            alt="Stack Overflow link"></a></li>
                 <li><a href="https://github.com/"><img src="./Images/ic_github.png" alt="GitHub link"></a></li>
                 <li><a href="https://twitter.com/"><img src="./Images/ic_twitter.png" alt="twitter link"></a></li>
                 <li><a href="https://linkedin.com/"><img src="./Images/ic_linkedin.png" alt="linkedin link"></a></li>
@@ -240,6 +250,6 @@
             </ul>
         </div>
     </footer>
-   </body>
+</body>
 
 </html>
