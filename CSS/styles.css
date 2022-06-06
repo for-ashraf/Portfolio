@@ -65,7 +65,7 @@ ul {
   transition: all 250ms ease-out;
 }
 
-.nav-items li:hover:after {
+.nav-items li:hover::after {
   width: 100%;
 }
 
