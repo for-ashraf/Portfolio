@@ -79,7 +79,7 @@ ul {
   width: 20px;
 }
 
-.primary_Section {
+.primarysection {
   display: flex;
   flex-wrap: wrap;
 }
@@ -511,7 +511,7 @@ textarea {
     display: flex;
   }
 
-  .primary_Section {
+  .primarysection {
     padding-top: 65px;
     margin-bottom: 60px;
     flex-wrap: nowrap;
