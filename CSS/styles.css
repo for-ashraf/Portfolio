@@ -306,7 +306,7 @@ ul {
   margin-bottom: 1.5em;
 }
 
-.con-lang {
+.contain {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -657,6 +657,7 @@ textarea {
   }
 
   .contain {
+    display: inline-flex;
     width: 30%;
     margin: 30px 20px 30px 90px;
   }
