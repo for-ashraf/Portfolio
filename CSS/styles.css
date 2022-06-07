@@ -657,6 +657,7 @@ textarea {
   }
 
   .contain {
+    display: inline-flex;
     width: 30%;
     margin: 30px 20px 30px 90px;
   }
@@ -697,7 +698,7 @@ textarea {
   }
 
   .contacts {
-    height: 90vh;
+    height: auto;
     flex-wrap: nowrap;
     margin-top: 180px;
   }
