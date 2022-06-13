@@ -1,7 +1,17 @@
-let mybtn = document.querySelector('#mybtn');
+const menu = document.querySelector(".site-menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const menuIcon = document.querySelector(".menuIcon");
 
-function display() {
-    alert('It was clicked!');
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    
+    menuIcon.style.display = "none";
+  }
 }
 
-mybtn.addEventListener('click',display);
+hamburger.addEventListener("click", toggleMenu);
