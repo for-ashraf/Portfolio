@@ -711,7 +711,7 @@ textarea {
     grid-column: span 1;
     background-image: url(../Images/deco5.png);
     background-position: top;
-    background-size: ontain;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 
