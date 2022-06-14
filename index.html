@@ -8,24 +8,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./CSS/styles.css">
-    
     <title>Module1-Desktop Portfolio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav class="nav-header">
-        <div class="nav-items">
-            <ul>
-                <li><a href="#home">Hello</a></li>
-                <li><a href="#works">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <div class="menu">
-            <a href="#"><img src="Images/menu.png" id="mybtn" alt="Placeholder-menu"></a>
-        </div>
-    </nav>
+    <header>
+        <nav class="nav">
+            <div class="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navlinks">
+                <div class="mobile-menu-close">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul>
+                    <li><a class="nav-link" href="#home">Hello</a></li>
+                    <li><a class="nav-link" href="#works">Portfolio</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <section class="primarysection" id="home">
         <div class="homewrapper">
@@ -238,6 +246,6 @@
             </ul>
         </div>
     </footer>
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
