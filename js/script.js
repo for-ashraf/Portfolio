@@ -27,8 +27,8 @@ document.querySelectorAll('.close').forEach((n) => n
 
 function logSubmit(event) {
   const emailAddress = document.getElementById('emailAddress').value;
-  let errorMsg = document.getElementById('error_msg');
-  let lowerEmail = emailAddress.toLowerCase();
+  const errorMsg = document.getElementById('error_msg');
+  const lowerEmail = emailAddress.toLowerCase();
 
   if (emailAddress !== lowerEmail) {
     errorMsg.textContent = 'The format of the email is not correct.';
@@ -37,6 +37,5 @@ function logSubmit(event) {
   else {
     errorMsg.textContent = '';
   }
-  errorMsg.textContent = '';
 }
 contactForm.addEventListener('submit', logSubmit);
