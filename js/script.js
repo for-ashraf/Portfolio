@@ -29,17 +29,15 @@ document.querySelectorAll('.close').forEach((n) => n
     overlayMenu.classList.remove('active');
   }));
   
-
 function logSubmit(event) {
   const emailAddress= document.getElementById('emailAddress').value;
   var error_msg = document.getElementById("error_msg");
   var loweremail=emailAddress.toLowerCase();
   
-  if (emailAddress!=loweremail)
-  {
-  error_msg.textContent="The format of the email is not correct.";
-  event.preventDefault();
+  if (emailAddress!=loweremail) {
+    error_msg.textContent="The format of the email is not correct.";
+    event.preventDefault();
   }
   else
-  error_msg.textContent="";
+    error_msg.textContent="";
 }
