@@ -91,6 +91,16 @@ ul {
   width: 100%;
 }
 
+.form-msgs {
+  margin-top: -30px;
+  color: red;
+}
+
+.levels {
+  display: flex;
+  flex-direction: column;
+}
+
 .mobile-menu {
   cursor: pointer;
   position: absolute;
@@ -772,9 +782,10 @@ textarea {
   }
 
   .contacts {
-    height: 90vh;
+    height: auto;
     flex-wrap: nowrap;
     margin-top: 180px;
+    margin-bottom: 0;
   }
 
   .topimg {
