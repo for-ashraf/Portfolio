@@ -212,21 +212,24 @@
             <div class="para-text">
                 <p class="text-desc" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
-            <form action="https://formspree.io/f/mayvvvnd" method="POST">
+            <form id="contactForm" method="post" action="https://formspree.io/f/mbjwqyyr">
                 <ul class="contactform">
                     <li>
                     <label for="fname">Your name</label>
-                        <input type="text" name="name" id="fname" placeholder="Jhon Doe" required="" maxlength="30" pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}">
+                        <input type="text" name="name" id="fname" placeholder="Jhon Doe*" required="" maxlength="30">
                     </li>
                     <li>
                     <label for="email-address">Your email</label>
-                    <input type="email" name="email" id="emailAddress" placeholder="email@domain.com*" required="" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
+                        <input type="email" name="email" id="emailAddress" placeholder="email@domain.com*" required="" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}">
                     </li>
                     <li>
-                    <textarea rows="4" name="message" id="message" placeholder="Enter your message here..." required="" maxlength="500"></textarea>
+                    <textarea rows="4"  name="message" id="message" placeholder="Enter your message here...&#10;*All field required" required="" maxlength="500"></textarea>
                     </li>
                 </ul>
+                <div class="levels">
                 <button class="col-btn" type="submit">Start collaboration</button>
+                <span class="form-msgs" id="error_msg"></span>
+                </div>
             </form>
         </div>
         <div class="bottomimg"></div>
