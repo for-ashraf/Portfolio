@@ -772,9 +772,10 @@ textarea {
   }
 
   .contacts {
-    height: 90vh;
+    height: auto;
     flex-wrap: nowrap;
     margin-top: 180px;
+    margin-bottom: 0;
   }
 
   .topimg {
