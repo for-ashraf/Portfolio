@@ -28,16 +28,17 @@ document.querySelectorAll('.close').forEach((n) => n
     mobMenu.classList.remove('active');
     overlayMenu.classList.remove('active');
   }));
-  
+
 function logSubmit(event) {
-  const emailAddress= document.getElementById('emailAddress').value;
-  var error_msg = document.getElementById("error_msg");
-  var loweremail=emailAddress.toLowerCase();
-  
-  if (emailAddress!=loweremail) {
-    error_msg.textContent="The format of the email is not correct.";
+  const emailAddress = document.getElementById('emailAddress').value;
+  let error_msg = document.getElementById('error_msg');
+  let loweremail = emailAddress.toLowerCase();
+
+  if (emailAddress != loweremail) {
+    error_msg.textContent = 'The format of the email is not correct.';
     event.preventDefault();
   }
-  else
-    error_msg.textContent="";
+  else {
+    error_msg.textContent = '';
+  }
 }
