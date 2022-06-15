@@ -30,11 +30,13 @@ function logSubmit(event) {
   const errorMsg = document.getElementById('error_msg');
   const lowerEmail = emailAddress.toLowerCase();
 
-  if (emailAddress !== lowerEmail) {
+  if (emailAddress !== lowerEmail) 
+  {
     errorMsg.textContent = 'The format of the email is not correct.';
     event.preventDefault();
   }
-  else {
+  else 
+  {
     errorMsg.textContent = '';
   }
 }
