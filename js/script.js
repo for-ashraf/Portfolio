@@ -33,7 +33,7 @@ function logSubmit(event) {
   if (emailAddress !== lowerEmail) {
     errorMsg.textContent = 'The format of the email is not correct.';
     event.preventDefault();
-  }
+ }
   else {
     errorMsg.textContent = '';
   }
