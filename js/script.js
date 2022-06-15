@@ -27,16 +27,16 @@ document.querySelectorAll('.close').forEach((n) => n
 
 function logSubmit(event) {
   const emailAddress = document.getElementById('emailAddress').value;
-  let error_msg = document.getElementById('error_msg');
+  let errorMsg = document.getElementById('error_msg');
   let lowerEmail = emailAddress.toLowerCase();
 
   if (emailAddress !== lowerEmail) {
-    error_msg.textContent = 'The format of the email is not correct.';
+    errorMsg.textContent = 'The format of the email is not correct.';
     event.preventDefault();
-    }
+  }
   else {
-    error_msg.textContent = '';
-    }
+    errorMsg.textContent = '';
+  }
+  errorMsg.textContent = '';
 }
 contactForm.addEventListener('submit', logSubmit);
-
