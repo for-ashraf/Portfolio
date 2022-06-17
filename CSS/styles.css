@@ -425,7 +425,7 @@ ul {
   box-sizing: border-box;
   background-color: #fff;
   margin: 0;
-  height: "| fit-content";
+  max-height: 100%;
   padding: 0;
   width: 100%;
 }
@@ -966,8 +966,8 @@ textarea {
     width: auto;
     height: auto;
     flex: 1 0 50%;
-  } 
-  
+  }
+
   .dots {
     background-image: url(../Images/image_dots.svg);
     background-repeat: no-repeat;
