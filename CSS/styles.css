@@ -883,7 +883,7 @@ textarea {
   }
 
   .mtext-mod {
-    margin: none;
+    margin: 0;
   }
 
   .head-title {
