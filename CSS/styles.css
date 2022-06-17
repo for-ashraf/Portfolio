@@ -425,7 +425,7 @@ ul {
   box-sizing: border-box;
   background-color: #fff;
   margin: 0;
-  height: fit-content;
+  height: "| fit-content";
   padding: 0;
   width: 100%;
 }
