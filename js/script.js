@@ -1,4 +1,40 @@
 
+    pId: 3,
+    pName: 'Project Three',
+    tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
+    pImg: './Images/project3.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+  {
+    pId: 4,
+    pName: 'Project Four',
+    tags: ['HTML/CSS', 'Bootstrap', 'Javascript'],
+    pImg: './Images/project4.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+  {
+    pId: 5,
+    pName: 'Project Five',
+    tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
+    pImg: './Images/project5.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+  {
+    pId: 6,
+    pName: 'Project Six',
+    tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
+    pImg: './Images/project6.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+];
 
 /// //// projects ///////
 const projContainer = document.getElementById('projects');
