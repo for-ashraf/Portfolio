@@ -37,4 +37,3 @@ function logSubmit(event) {
     errorMsg.textContent = '';
   }
 }
-contactForm.addEventListener('submit', logSubmit);
