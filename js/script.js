@@ -5,8 +5,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Ruby On Rails', 'Bootstrap'],
     pImg: './Images/project1.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue. tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue.',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
   {
     pId: 2,
@@ -14,8 +14,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
     pImg: './Images/project2.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
   {
     pId: 3,
@@ -23,8 +23,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
     pImg: './Images/project3.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
   {
     pId: 4,
@@ -32,8 +32,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Bootstrap', 'Javascript'],
     pImg: './Images/project4.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
   {
     pId: 5,
@@ -41,8 +41,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
     pImg: './Images/project5.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
   {
     pId: 6,
@@ -50,8 +50,8 @@ const projectsArr = [
     tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
     pImg: './Images/project6.jpg',
     pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
-    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
-    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+    btnLive: 'https://github.com/for-ashraf/Portfolio/',
+    btnSrc: 'https://github.com/for-ashraf/Portfolio',
   },
 ];
 
