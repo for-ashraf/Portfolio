@@ -911,7 +911,7 @@ textarea {
   .image-desktop {
     display: block;
   }
-  
+
   .about {
     margin-top: 180px;
     width: 100%;
@@ -966,7 +966,7 @@ textarea {
     width: auto;
     height: auto;
     flex: 1 0 50%;
-  }
+  } 
   
   .dots {
     background-image: url(../Images/image_dots.svg);
