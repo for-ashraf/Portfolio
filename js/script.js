@@ -1,4 +1,23 @@
-
+const projectsArr = [
+  {
+    pId: 1,
+    pName: 'Project One',
+    tags: ['HTML/CSS', 'Ruby On Rails', 'Bootstrap'],
+    pImg: './Images/project1.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue. tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue.',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+  {
+    pId: 2,
+    pName: 'Project Two',
+    tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
+    pImg: './Images/project2.jpg',
+    pText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat tincidunt mattis. Sed ornare sapien lacus, nec placerat leo tempus sed. Curabitur ac augue',
+    btnLive: 'https://raminka13.github.io/M1-Portfolio/',
+    btnSrc: 'https://github.com/raminka13/M1-Portfolio',
+  },
+  {
     pId: 3,
     pName: 'Project Three',
     tags: ['HTML/CSS', 'Ruby On Rails', 'Javascript'],
