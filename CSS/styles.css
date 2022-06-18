@@ -431,7 +431,7 @@ ul {
 }
 
 .projtxt-mod {
-  padding-top: 0px;
+  padding-top: 0;
   margin-bottom: 0.5em;
   padding-left: 1.5em;
   font-family: 'Poppins', sans-serif;
@@ -714,6 +714,7 @@ textarea {
   .projlang-mod {
     margin-left: 280px;
   }
+
   .navlinks ul {
     width: 36%;
     flex-direction: row;
