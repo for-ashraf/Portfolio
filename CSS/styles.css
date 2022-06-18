@@ -425,13 +425,13 @@ ul {
   box-sizing: border-box;
   background-color: #fff;
   margin: 0;
-  max-height: 100%;
+  height: auto;
   padding: 0;
   width: 100%;
 }
 
 .projtxt-mod {
-  padding-top: 0.5em;
+  padding-top: 0px;
   margin-bottom: 0.5em;
   padding-left: 1.5em;
   font-family: 'Poppins', sans-serif;
@@ -711,6 +711,9 @@ textarea {
     opacity: 100%;
   }
 
+  .projlang-mod {
+    margin-left: 280px;
+  }
   .navlinks ul {
     width: 36%;
     flex-direction: row;
@@ -828,16 +831,18 @@ textarea {
 
   .modal-overlay {
     align-items: center;
+    background-color: #1a2236;
   }
 
   .proj-wrp-mod {
     width: 90%;
-    height: 90%;
+    height: auto;
   }
 
   .projtxt-mod {
     font-weight: 700;
-    padding-top: 0;
+    padding-top: 300px;
+    margin-left: 240px;
   }
 
   .projectimg-mod {
@@ -860,6 +865,11 @@ textarea {
     justify-content: flex-start;
     align-items: flex-start;
     flex: 0 1 50%;
+  }
+
+  .mod-wrpr {
+    margin-left: 290px;
+    margin-right: 290px;
   }
 
   .maintitle {
